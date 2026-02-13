@@ -9,29 +9,142 @@
 <body>
     <div class="background"></div>
     
-    <header>
-        <h1 class="title">💕 You Are My Everything 💕</h1>
-        <p class="subtitle">Your eyes are like the mirror of heavens</p>
-    </header>
+    <!-- Landing Page -->
+    <div id="landing-page" class="landing-page">
+        <div class="landing-content">
+            <div class="landing-heart">💕</div>
+            <h1 class="landing-title">I Have Something Special For You</h1>
+            <p class="landing-text">Click the button below to see my Valentine's surprise...</p>
+            <button class="reveal-button" onclick="revealPage()">
+                <span>Open My Heart 💌</span>
+            </button>
+        </div>
+    </div>
 
-    <main>
-        <!-- Why I Love You Section -->
-        <section class="section">
-            <h2 class="section-title">✨ Why I Love You ✨</h2>
-            <div class="reasons-container">
-                <div class="reason-item">
-                    <span class="emoji">😍</span>
-                    <p>Your smile lights up my entire world and makes every day brighter</p>
+    <!-- Main Page (Hidden Initially) -->
+    <div id="main-page" class="main-page hidden">
+        <header>
+            <h1 class="title">💕 You Are My Everything 💕</h1>
+            <p class="subtitle">A special message for my love</p>
+        </header>
+
+        <main>
+            <!-- Why I Love You Section -->
+            <section class="section">
+                <h2 class="section-title">✨ Why I Love You ✨</h2>
+                <div class="reasons-container">
+                    <div class="reason-item">
+                        <span class="emoji">😍</span>
+                        <p>Your smile lights up my entire world and makes every day brighter</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="emoji">❤️</span>
+                        <p>You have the kindest heart and the most beautiful soul</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="emoji">🌟</span>
+                        <p>You make me want to be a better person every single day</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="emoji">💫</span>
+                        <p>Being with you feels like coming home after a long journey</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="emoji">🦋</span>
+                        <p>You inspire me and believe in me like no one else can</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="emoji">🎀</span>
+                        <p>My life is infinitely better because you're in it</p>
+                    </div>
                 </div>
-                <div class="reason-item">
-                    <span class="emoji">❤️</span>
-                    <p>You have the kindest heart and the most beautiful soul</p>
+            </section>
+
+            <!-- Love Meter Section -->
+            <section class="section">
+                <h2 class="section-title">💗 Our Love Meter 💗</h2>
+                <div class="love-meter">
+                    <div class="meter-bar">
+                        <div class="meter-fill"></div>
+                    </div>
+                    <p class="meter-text">❤️ INFINITE LOVE ❤️</p>
                 </div>
-                <div class="reason-item">
-                    <span class="emoji">🌟</span>
-                    <p>You make me want to be a better person every single day</p>
+            </section>
+
+            <!-- Beautiful Moments Section -->
+            <section class="section">
+                <h2 class="section-title">📸 Our Beautiful Moments 📸</h2>
+                <div class="gallery-container">
+                    <div class="photo">
+                        <div class="photo-placeholder">Our First Meeting 💑</div>
+                        <p>When my heart knew this was forever</p>
+                    </div>
+                    <div class="photo">
+                        <div class="photo-placeholder">Adventure Time 🗺️</div>
+                        <p>Exploring the world together</p>
+                    </div>
+                    <div class="photo">
+                        <div class="photo-placeholder">Quiet Moments 🌙</div>
+                        <p>When just being near you is enough</p>
+                    </div>
+                    <div class="photo">
+                        <div class="photo-placeholder">Laugh & Love 😂</div>
+                        <p>Your laugh is my favorite melody</p>
+                    </div>
                 </div>
-                <div class="reason-item">
-                    <span class="emoji">💫</span>
-                    <p>Being with you feels like coming home after a long journey</p>
+            </section>
+
+            <!-- My Wishes Section -->
+            <section class="section">
+                <h2 class="section-title">🌈 My Wishes For Us 🌈</h2>
+                <div class="wishes-container">
+                    <div class="wish-card">
+                        <h3>💍 Forever</h3>
+                        <p>I wish for a lifetime of love, laughter, and endless adventures together</p>
+                    </div>
+                    <div class="wish-card">
+                        <h3>🏠 Home</h3>
+                        <p>I wish to build a beautiful life with you, filled with warmth and happiness</p>
+                    </div>
+                    <div class="wish-card">
+                        <h3>😊 Joy</h3>
+                        <p>I wish for every day to be filled with your smile and genuine happiness</p>
+                    </div>
+                    <div class="wish-card">
+                        <h3>✨ Dreams</h3>
+                        <p>I wish for us to achieve all our dreams together, side by side</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Special Message Section -->
+            <section class="section love-letter">
+                <h2 class="section-title">💌 A Special Message For You 💌</h2>
+                <div class="letter-content">
+                    <p>My dearest love,</p>
+                    <p>Words could never fully express how much you mean to me. From the moment you entered my life, everything changed in the most beautiful way possible. You are my greatest blessing, my truest friend, and my deepest love.</p>
+                    <p>Every moment with you is a treasure. Whether we're sharing our deepest dreams, laughing until our sides hurt, or sitting in comfortable silence, I feel completely at peace knowing you're by my side.</p>
+                    <p>Thank you for being the most wonderful person I know. Thank you for loving me, supporting me, and believing in me even when I don't believe in myself. You make me want to be better, to love harder, and to appreciate every precious moment we share.</p>
+                    <p>I promise to love you with all my heart, to stand by you through thick and thin, and to cherish you forever. You are my forever, and I am grateful for you every single day.</p>
+                    <p>All my love,<br><strong>Your Forever 💕</strong></p>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="section final-message">
+                <h1>Happy Valentine's Day, My Love! 💕</h1>
+                <p>You are absolutely amazing and I'm so grateful for you!</p>
+                <p class="heart-rain">❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with 💕 on February 14, 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+                
                     
